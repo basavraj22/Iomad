@@ -1,4 +1,5 @@
 <?php
 
 echo "Hello";
+echo 'My client id and secret is ' .$_ENV["CLIENT_ID"] . '!' . '$_ENV["CLIENT_SECRET"]';
 phpinfo();
